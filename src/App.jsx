@@ -2,7 +2,17 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Navbar, Sidebar, Footer } from "./components"
 import styled from "styled-components"
-import { Home } from "./pages"
+
+import {
+  Home,
+  Products,
+  About,
+  Checkout,
+  Private,
+  Error,
+  Cart,
+  SingleProduct,
+} from "./pages"
 
 function App() {
   return (
