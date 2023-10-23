@@ -5,6 +5,15 @@ import About from "./AboutPage"
 import Cart from "./CartPage"
 import Error from "./ErrorPage"
 import Checkout from "./CheckoutPage"
-import Private from "./PrivatePage"
+import PrivateRoute from "./PrivateRoute"
 
-export { Home, Products, About, Checkout, Private, Error, Cart, SingleProduct }
+export {
+  Home,
+  Products,
+  About,
+  Checkout,
+  PrivateRoute,
+  Error,
+  Cart,
+  SingleProduct,
+}
