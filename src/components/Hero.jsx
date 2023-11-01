@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 import heroBcg from "../assets/hero-bcg.jpeg"
 import heroBcg2 from "../assets/hero-bcg-2.jpeg"
-
 const Hero = () => {
   return (
     <Wrapper className="section-center">
@@ -13,12 +12,13 @@ const Hero = () => {
           comfort zone
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          quae quas commodi saepe corporis labore eius quisquam culpa quasi
-          earum.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at
+          sed omnis corporis doloremque possimus velit! Repudiandae nisi odit,
+          aperiam odio ducimus, obcaecati libero et quia tempora excepturi quis
+          alias?
         </p>
         <Link to="/products" className="btn hero-btn">
-          show now
+          shop now
         </Link>
       </article>
       <article className="img-container">
