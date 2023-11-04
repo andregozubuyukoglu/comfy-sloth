@@ -82,7 +82,7 @@ const Filters = () => {
               })}
             </select>
           </div>
-          {/* end companies */}
+          {/* end of companies */}
         </form>
       </div>
     </Wrapper>
